@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+ body {
+ 
+ 			background-image:url("https://img.freepik.com/premium-photo/couple-chairs-are-sitting-umbrella-beach_7023-11604.jpg?w=826");
+            font-family: Arial, sans-serif;
+           background-repeat:no-repeat;
+           background-position:center;
+           background-size:cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        form {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="text"]:focus,
+        select:focus {
+            border-color: #ff6699;
+            outline: none;
+        }
+
+        select {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+        }
+
+        select option {
+            background-color: #fff;
+            color: #333;
+        }
+
+        button {
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #fff;
+            color: #ff6699;
+            border-color: #ff6699;
+        }
